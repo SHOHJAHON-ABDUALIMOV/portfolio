@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body .header {
+  width: 100%;
+}
+body .header .header__info {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 165px 54px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .header .header__info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 306px;
+}
+body .header .header__info ul img {
+  display: none;
+}
+body .header .header__info ul li a {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(51, 50, 61);
+  transition: 0.5s;
+}
+body .header .header__info ul li a:hover {
+  color: rgb(95, 180, 162);
+}
+body .header .header__info ul li .green {
+  color: rgb(95, 180, 162);
+}
+body .main {
+  width: 100%;
+}
+body .main .section1 {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 260px 80px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+body .main .section1 .manage_div {
+  padding: 103px 0px;
+  width: 100%;
+  max-width: 350px;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+}
+body .main .section1 .manage_div h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+  color: rgb(51, 50, 61);
+  margin-bottom: 28px;
+}
+body .main .section1 .manage_div p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(51, 50, 61);
+  margin-bottom: 24px;
+}
+body .main .section1 .manage_div a button {
+  width: 100%;
+  max-width: 162px;
+  padding: 17px 24px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(51, 50, 61);
+  border: 1px solid rgb(51, 50, 61);
+  background-color: transparent;
+}
+body .main .section2 {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 165px 80px 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+body .main .section2 .manage_div {
+  padding: 103px 0px;
+  width: 100%;
+  max-width: 350px;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+}
+body .main .section2 .manage_div h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+  color: rgb(51, 50, 61);
+  margin-bottom: 28px;
+}
+body .main .section2 .manage_div p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(51, 50, 61);
+  margin-bottom: 24px;
+}
+body .main .section2 .manage_div a button {
+  width: 100%;
+  max-width: 162px;
+  padding: 17px 24px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(51, 50, 61);
+  border: 1px solid rgb(51, 50, 61);
+  background-color: transparent;
+}
+body .main .section3 {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 165px 150px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+body .main .section3 h3 {
+  width: 100%;
+  max-width: 355px;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+  color: rgb(51, 50, 61);
+}
+body .main .section3 .rectangle {
+  width: 100%;
+  max-width: 534px;
+  border: 1px solid rgba(51, 50, 61, 0.2);
+}
+body .main .section3 a button {
+  width: 100%;
+  max-width: 162px;
+  padding: 17px 24px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(51, 50, 61);
+  border: 1px solid rgb(51, 50, 61);
+  background-color: transparent;
+}
+body .footer {
+  width: 100%;
+  background-color: rgb(51, 50, 61);
+}
+body .footer .footer__info {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .footer .footer__info .footer__info__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 418px;
+}
+body .footer .footer__info .footer__info__left ul {
+  width: 100%;
+  max-width: 309px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .footer .footer__info .footer__info__left ul li a {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1300px) {
+  body .header .header__info {
+    padding: 64px 100px 54px 100px;
+  }
+  body .main .section1 {
+    padding: 0px 100px 54px 100px;
+  }
+  body .main .section2 {
+    padding: 0px 100px 54px 100px;
+  }
+  body .main .section3 {
+    padding: 0px 100px 54px 100px;
+  }
+  body .footer .footer__info {
+    padding: 24px 100px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  body .main .section1 {
+    flex-direction: column;
+  }
+  body .main .section1 .manage_div h1 {
+    text-align: center;
+  }
+  body .main .section1 .manage_div p {
+    text-align: center;
+  }
+  body .main .section1 .manage_div button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .main .section2 {
+    flex-direction: column-reverse;
+  }
+  body .main .section2 .manage_div h1 {
+    text-align: center;
+  }
+  body .main .section2 .manage_div p {
+    text-align: center;
+  }
+  body .main .section2 .manage_div button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .main .section3 {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  body .main .section3 .manage_div h1 {
+    text-align: center;
+  }
+  body .main .section3 .manage_div p {
+    text-align: center;
+  }
+  body .main .section3 .manage_div button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .header .header__info {
+    padding: 64px 24px 54px 24px;
+  }
+  body .main .section1 {
+    padding: 0px 24px 54px 24px;
+  }
+  body .main .section2 {
+    padding: 0px 24px 54px 24px;
+  }
+  body .main .section3 {
+    padding: 0px 24px 54px 24px;
+  }
+  body .footer .footer__info {
+    flex-direction: column;
+    padding: 24px;
+    row-gap: 20px;
+  }
+  body .footer .footer__info .footer__info__left {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  body .footer .footer__info .footer__info__left ul {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .header .header__info ul {
+    justify-content: end;
+  }
+  body .header .header__info ul li {
+    display: none;
+  }
+  body .header .header__info ul img {
+    display: block;
+  }
+  body .main .section1 img {
+    width: 100%;
+    max-width: 320px;
+    height: 314px;
+  }
+  body .main .section2 img {
+    width: 100%;
+    max-width: 320px;
+    height: 314px;
+  }
+  body .main .section3 {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  body .main .section3 img {
+    width: 100%;
+    max-width: 320px;
+    height: 314px;
+  }
+}/*# sourceMappingURL=portfolio.css.map */

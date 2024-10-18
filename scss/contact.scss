@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  .header {
+    width: 100%;
+    .header__info {
+      width: 100%;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 64px 165px 94px 165px;
+      border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: calc(43px + 42px + 43px + 83px + 95px);
+        img {
+          display: none;
+        }
+        li {
+          a {
+            font-family: "Public Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.1px;
+            letter-spacing: 2px;
+            text-align: left;
+            color: rgba(51, 50, 61, 1);
+            transition: 0.5s;
+            &:hover {
+              color: rgba(95, 180, 162, 1);
+            }
+          }
+          .green {
+            color: rgba(95, 180, 162, 1);
+          }
+        }
+      }
+    }
+  }
+  .main {
+    width: 100%;
+    .section1 {
+      width: 100%;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 48px 165px;
+      border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+      display: flex;
+      justify-content: space-between;
+      column-gap: 30px;
+      h1 {
+        font-family: "Ibarra Real Nova", serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+      }
+      .info {
+        width: 100%;
+        max-width: 635px;
+        p {
+          font-family: "Public Sans", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: left;
+          color: rgba(51, 50, 61, 1);
+          margin-bottom: 24px;
+        }
+      }
+    }
+    .section2 {
+      width: 100%;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 47px 165px 109px 165px;
+      border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+      display: flex;
+      justify-content: space-between;
+      column-gap: 30px;
+      h2 {
+        font-family: "Ibarra Real Nova", serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+        color: rgba(51, 50, 61, 1);
+      }
+      .inputs {
+        width: 100%;
+        max-width: 635px;
+        h4 {
+          font-family: "Public Sans", sans-serif;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 30px;
+          text-align: left;
+          color: rgba(51, 50, 61, 1);
+          margin-bottom: 8px;
+        }
+        input {
+          width: 100%;
+          max-width: 100%;
+          padding: 9px 16px;
+          background-color: rgba(51, 50, 61, 0.1);
+          font-family: "Public Sans", sans-serif;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: left;
+          border: none;
+          margin-bottom: 24px;
+        }
+        button {
+          border: none;
+          width: 100%;
+          max-width: 200px;
+          background-color: rgba(32, 58, 76, 1);
+          padding: 17px 24px;
+          font-family: "Public Sans", sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 14.1px;
+          letter-spacing: 2px;
+          text-align: center;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+  .footer {
+    width: 100%;
+    background-color: rgba(51, 50, 61, 1);
+    .footer__info {
+      width: 100%;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 24px 165px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .footer__info__left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: calc(309px + 48px + 61px);
+        ul {
+          width: 100%;
+          max-width: 309px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          li {
+            a {
+              font-family: "Public Sans", sans-serif;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 14.1px;
+              letter-spacing: 2px;
+              text-align: left;
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1230px) {
+  body {
+    .header {
+      .header__info {
+        padding: 32px;
+      }
+    }
+    .main {
+      .section1 {
+        padding: 32px;
+      }
+      .section2 {
+        padding: 32px;
+      }
+    }
+    .footer {
+      .footer__info {
+        padding: 32px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    .main {
+      .section1 {
+        flex-direction: column;
+        row-gap: 30px;
+        .info {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      .section2 {
+        flex-direction: column;
+        .inputs {
+          width: 100%;
+          max-width: 800px;
+        }
+      }
+    }
+    .footer {
+      .footer__info {
+        flex-direction: column;
+        row-gap: 20px;
+        .footer__info__left {
+          flex-direction: column;
+          row-gap: 20px;
+          ul {
+            flex-direction: column;
+            row-gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    .header {
+      .header__info {
+        ul {
+          justify-content: end;
+          li {
+            display: none;
+          }
+          img {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
